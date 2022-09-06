@@ -33,7 +33,7 @@ paleturquoise
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     border-bottom:3px solid #EA3C53;
     background: linear-gradient(90deg, #00000088 50%, #ffffff44 100%);
 }
