@@ -1,0 +1,94 @@
+/* 
+colors
+paleturquoise
+#EA3C53 
+*/
+
+
+
+/* Global-Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+/* Header */
+
+
+
+.header-container{
+    width: 100%;
+    height: 100vh;
+    min-height: 300px;
+    background: url("/Images/P1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+}
+
+.header-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-bottom:3px solid #EA3C53;
+    background: linear-gradient(90deg, #00000088 50%, #ffffff44 100%);
+}
+
+/* .header-intro{
+    position: relative;
+    top: 68%;
+    left:-20%;
+} */
+
+
+
+/* Navbar */
+
+
+.navbar{
+    background-color: transparent;
+    
+}
+
+.nav-link{
+    color:paleturquoise;
+}
+.nav-link:hover{
+    color: #EA3C53;
+}
+.nav-link:active:visited {
+    color: paleturquoise;
+}
+
+
+
+.custom-toggler{
+    border: 2px solid rgb(175, 238, 238);
+    color: paleturquoise;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(175, 238, 238)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler:hover{
+    border: 3px solid paleturquoise;
+}
+
+/* section about me */
+
+.about-me{
+    /* border-top:3px solid #EA3C53; */
+    width: 100%;
+    height: 300px;
+    border-bottom: 3px solid #EA3C53;
+}
+/* .navbar.scrolled {
+    background:black;
+    transition: background 800ms;
+} */
