@@ -45,9 +45,11 @@ paleturquoise
 } */
 
 
-
 /* Navbar */
 
+.row{
+    border-bottom: 1px solid white;
+}
 
 .navbar{
     background-color: transparent;
@@ -85,9 +87,25 @@ paleturquoise
 .about-me{
     /* border-top:3px solid #EA3C53; */
     width: 100%;
-    height: 300px;
-    border-bottom: 3px solid #EA3C53;
+    height: auto;
+    /* border-bottom: 3px solid #EA3C53; */
 }
+
+.beta1{
+
+    background-color: bisque;
+}
+
+
+.about-image{
+    /* max-width: 400px; */
+    height: auto;
+    margin: 10 10;
+    justify-items: center;
+}
+
+
+
 /* .navbar.scrolled {
     background:black;
     transition: background 800ms;
