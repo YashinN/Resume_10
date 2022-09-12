@@ -8,11 +8,7 @@ paleturquoise
 
 /* Global-Reset */
 
-*{
-    margin: 0;
-    padding: 0;
-  
-}
+
 
 
 /* Header */
@@ -21,21 +17,46 @@ paleturquoise
 
 .header-container{
     width: 100%;
-    height: 100vh;
+    height: 661;
     min-height: 300px;
-    background: url("/Images/P1.jpg");
+    background: url("/Images/P1.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 2px;
+    position: relative;
+    margin-bottom: 100px;
+  
 }
 
 .header-container::before{
     content: "";
     position: absolute;
     width: 100%;
-    height: 100vh;
-    border-bottom:3px solid #EA3C53;
+    height: 661px;
+    border-bottom:3px solid #17bed2;
     background: linear-gradient(90deg, #00000088 50%, #ffffff44 100%);
+  
+}
+
+.title{
+    width: auto;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: absolute;
+    top:40%;
+    left:21%;
+}
+
+.title-name{
+    color: #17bed2;
+}
+
+.sub-title{
+    color:#EA3C53 ;
+}
+
+span{
+    color: white;
 }
 
 /* .header-intro{
@@ -47,9 +68,13 @@ paleturquoise
 
 /* Navbar */
 
-.row{
-    border-bottom: 1px solid white;
+.navbar-container{
+    position: absolute;
+    border-bottom: 1px solid rgb(23, 190, 210);
+    width: 100%;
 }
+
+
 
 .navbar{
     background-color: transparent;
@@ -57,10 +82,10 @@ paleturquoise
 }
 
 .nav-link{
-    color:paleturquoise;
+    color:#17bed2;
 }
 .nav-link:hover{
-    color: #EA3C53;
+    color: paleturquoise;
 }
 .nav-link:active:visited {
     color: paleturquoise;
@@ -69,40 +94,43 @@ paleturquoise
 
 
 .custom-toggler{
-    border: 2px solid rgb(175, 238, 238);
-    color: paleturquoise;
+    border: 2px solid #17bed2;
+    color: #17bed2;
 }
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
-    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(175, 238, 238)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(23, 190, 210)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler:hover{
-    border: 3px solid paleturquoise;
+    border: 3px solid #17bed2;
 }
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
+
 
 /* section about me */
 
-.about-me{
-    /* border-top:3px solid #EA3C53; */
-    width: 100%;
-    height: auto;
-    /* border-bottom: 3px solid #EA3C53; */
+.about-descrip{
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-left: 0%;
 }
-
-.beta1{
-
-    background-color: bisque;
-}
-
 
 .about-image{
-    /* max-width: 400px; */
+    width:250px;
     height: auto;
-    margin: 10 10;
-    justify-items: center;
+    align-content: center;
+    /* padding-top: 20px; */
+    border: 3px solid #17bed2;
 }
+
+
+
+
 
 
 
@@ -110,3 +138,118 @@ paleturquoise
     background:black;
     transition: background 800ms;
 } */
+
+
+
+/* Experience Section */
+
+.card{
+    border-style: solid;
+    height: 234px;
+    width: 100%;
+}
+
+ .card-1{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.card-2,.card-3{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.card-2{
+    background-color: #17bed2;
+}
+
+.card{
+    border-style: none;
+    border-radius: 0%;
+    height: auto;
+    
+}
+
+
+.card-1,.card-3{
+    background-color: white;
+}
+
+.card-middle{
+    background-color: #17bed2;
+    color: white;
+}
+
+.card-set{
+    padding: 40px 100px;
+}
+
+.experience{
+    background-color: #fafafa;
+    padding-top:50px;
+    margin: 50px 50px;
+    padding-bottom:50px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* *******Skills Section********* */
+
+.skills-icon{
+    width: 200px;
+    height: auto;
+}
+
+/* General */
+
+/* section{
+    margin: 100px;
+   
+} */
+
+/* .about-me{
+    margin-top: 100px;
+}
+
+.experience{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skills{
+    margin-top: 100px;
+    margin-bottom: 100px;
+} */
+
+
+.ool{
+    max-width: 1000px;
+    width: 600px;
+    max-height: 1px;
+    height: auto;
+    border-bottom: 1px solid #EA3C53;
+}
+
+.send-message{
+    margin-bottom: 100px;
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+/* 
+.form-container{
+    padding-right: 50px;
+    padding-left: 50px;
+} */
+
+.con-sub{
+    background-color: #17bed2;
+    padding: 100;
+    border-radius: 1rem;
+}
+
+.con-sub{
+    padding: 5rem;
+}
+
