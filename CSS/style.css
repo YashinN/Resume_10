@@ -5,7 +5,7 @@ paleturquoise
 */
 
 
-/* ******Header*********/
+/*******Header*********/
 
 body{
     color:#a7a7ab;
@@ -55,6 +55,9 @@ span{
     color: white;
 }
 
+#sub-intro{
+    font-size: medium;
+}
 
 .header-container{
     width: 100%;
@@ -77,10 +80,6 @@ span{
     background: linear-gradient(90deg, #00000088 60%, #ffffff44 100%);
   
 }
-
-
-
-
 
 
 /******** Navbar******* */
@@ -121,6 +120,7 @@ span{
     color: rgb(255, 255, 255);
 }
 
+/* Changes color of navbar toggler */
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
     "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -140,7 +140,7 @@ span{
 }
 
 
-/* section about me */
+/* ******section about me******* */
 
 .about-descrip{
     padding-right: 100px;
@@ -240,18 +240,24 @@ h5{
 /* *******Skills Section********* */
 
 .skills-icon{
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
+/* ****** Message Section****** */
+
 .send-message{
-    margin-bottom: 100px;
+    
     background-color: #fafafa;
     padding-top: 50px;
     padding-bottom:50px;
+    margin-top: 100px;
 }
 
-/* ****** Message Section****** */
+.form-container{
+    padding-left:88px;
+    padding-right: 88px;
+}
 
 .con-sub{
     background-color: #17bed2;
@@ -263,8 +269,125 @@ h5{
     padding: 5rem;
 }
 
-@media screen and (max-width: 768px) { 
+.btn{
+    background-color: #17bed2;
+    color: white;
+    border: 1px solid;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #17bed2;
+}
+
+
+/* 
+*****Contact-Section******* */
+
+.contact{
+    background-color: #17bed2;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#contact-title{
+    color: white;
+}
+
+.contact-icon{
+    width: 50px;
+    height: auto;
+}
+
+.d-flex{
+    gap: 25px;
+}
+
+/* Screensize Mobile */
+@media screen and (max-width: 576px) { 
+    .header-container{
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .header-container::before{
+        height: 400px;
+        background: linear-gradient(90deg, #00000088 70%, #ffffff44 100%);
+    }
+
+    .about-descrip{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+
+   .beta2{
+    padding-left: 0;
+    padding-right: 0;
+   }
+   .card-set{
+    padding: 0;
+   }
+
+   .skills-icon{
+    width:100px;
+   }
+
+   .send-message{
+    margin-top: 20px;
+   }
+
+   .form-container{
+    padding:0;
+   }
+
+   .con-sub{
+    border-radius: 0;
+    padding:20px;
+   }
+   .contact{
+    margin-top: 20px;
+   }
+
+   .title{
+    width: 200px;
+   }
+
+  }
+
+
+/* Screen Size Tablet */
+@media screen and (max-width:768px){
     .navbar {
-      position: relative !important;
+        position: relative !important;
+      }
+    
+}
+
+
+
+/* Screen Size Deskstop/Laptop */
+  @media screen and (max-width: 1300px) { 
+    .about-descrip{
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+
+    .beta2{
+        padding-right: 50px;
+        padding-left: 50px;
     }
   }
+
+
+  @media screen and (min-width: 1500px) { 
+    .header-container{
+        height: 800px;
+    }
+    .header-container::before{
+        height: 800px;
+    }
+  }
+
+
+  
