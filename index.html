@@ -8,6 +8,10 @@
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <!-- Font Link -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+
+
     <!-- CSS Link -->
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
@@ -16,7 +20,7 @@
       <header class = "container-fluid p-0 header-container">
         <div class = "row">
           <div class = "col-7 navbar-container">
-            <nav id ="mainNavbar" class="navbar navbar-dark navbar-expand-lg ">
+            <nav id ="mainNavbar" class="navbar navbar-dark navbar-expand-lg fixed-top ">
               <div class="container-fluid">
                 <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -27,7 +31,7 @@
                       <a class="nav-link" aria-current="page" href="">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="">About Me</a>
+                      <a class="nav-link" href="">About</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="">Experience</a>
@@ -50,7 +54,7 @@
 
         <div class = "container title">
           <h1 class ="title-name">Yashin <span>Naran</span></h1>
-          <h2 class = "sub-title"> <span>Web </span>devloper</h2>
+          <h2 class = "sub-title"> <span>Web </span> Designer <span>& Front-End </span> Developer</h2>
         </div>
       </header>
 
@@ -58,7 +62,7 @@
       <div class = "row">
         <div class = "col-md-3">
           <div class = "text-left text-md-end" >
-            <h2>Intro</h2>
+            <h2>About</h2>
             <p>What I'm all about</p>
           </div>
         </div>
@@ -83,7 +87,7 @@
         <div class="col-sm-3">
           <div class="text-left text-md-end">
             <h2>Experience</h2>
-            <p>What I'm all about</p>
+            <p>Knowledge aquired</p>
           </div>
         </div>
 
@@ -92,9 +96,8 @@
             <div class="col-lg-4 card-1">
               <div class="card">
                 <div class="card-body">
-                  <img src="/Images/icons8-database-50.png" alt="">
+                  <img class = "img-fluid card-icon" src="/Images/icons8-database-50.png" alt="">
                   <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
@@ -103,10 +106,10 @@
             <div class="col-lg-4 card-2">
               <div class="card card-middle">
                 <div class="card-body">
-                  <img src="/Images/50.png" alt="">
+                  <img class = "img-fluid card-icon"src="/Images/50.png" alt="">
                   <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                  <p id ="card-middle" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
@@ -114,9 +117,9 @@
             <div class="col-lg-4 card-3">
               <div class="card">
                 <div class="card-body">
-                  <img src="/Images/icons8-database-50.png" alt="">
+                  <img class = "img-fluid card-icon"src="/Images/icons8-database-50.png" alt="">
                   <h5 class="card-title">Card title</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <!-- <a href="#" class="card-link">Card link</a>
                   <a href="#" class="card-link">Another link</a> -->
@@ -132,13 +135,13 @@
       <div class="row">
         <div class="col-md-3">
           <div class="text-left text-md-end">
-            <h2>Intro</h2>
-            <p>What I'm all about</p>
+            <h2>Skills</h2>
+            <p>What I can do!</p>
           </div>
         </div>
       </div>
 
-      <div class="row test2">
+      <div class="row">
         
       </div>
       <div class="row">
@@ -148,16 +151,24 @@
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/Images/icons8-html-5-256.png" class="d-block mx-auto py-4 skills-icon" alt="...">
+                <img src="/Images/icons8-css3-480.png" class="d-block mx-auto py-4 skills-icon" alt="css-logo">
               </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="/Images/icons8-github-256.png" class="d-block mx-auto py-4 skills-icon" alt="...">
+                <img src="/Images/icons8-html-5-480.png" class="d-block mx-auto py-4 skills-icon" alt="html-logo">
               </div>
               <div class="carousel-item">
-                <img src="/Images/icons8-github-256.png" class="d-block mx-auto py-4 skills-icon " alt="...">
+                <img src="/Images/icons8-vue-js-480.png" class="d-block mx-auto py-4 skills-icon " alt="vue-logo">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/icons8-javascript-480.png" class="d-block mx-auto py-4 skills-icon " alt="javscript-logo">
+              </div>
+              <div class="carousel-item">
+                <img src="/Images/icons8-github-480.png" class="d-block mx-auto py-4 skills-icon " alt="github-logo">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -177,8 +188,8 @@
       <div class="row">
         <div class="col-md-3">
           <div class="text-left text-md-end">
-            <h2>Intro</h2>
-            <p>What I'm all about</p>
+            <h2>Send a message</h2>
+            <p>Hire me</p>
           </div>
         </div>
           
@@ -206,12 +217,11 @@
       
       
 
-    </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-<!-- 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -223,9 +233,9 @@
       $(function () {
           $(document).scroll(function () {
               var $nav = $("#mainNavbar");
-              $nav.toggleClass("scrolled", $(this).scrollTop() > 800);
+              $nav.toggleClass("scrolled", $(this).scrollTop() > 165);
           });
       });
-  </script>  -->
+  </script> 
 </body>
 </html>

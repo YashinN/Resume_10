@@ -5,14 +5,55 @@ paleturquoise
 */
 
 
+/* ******Header*********/
 
-/* Global-Reset */
+body{
+    color:#a7a7ab;
 
+}
 
+.title{
+    width: auto;
+    position: absolute;
+    top:43%;
+    left:14%;
+    font-family: "Hind",sans-serif;
+}
 
+h2{
+    color: #333;
+    font-size: 32px;
+    font-weight: 500px;
+ 
+}
 
-/* Header */
+p{
+    color: #a7a7ab;
+    font-family: "Hind", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 21px;
+}
 
+.title-name{
+    color: #17bed2;
+    font-size: 45;
+   
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sub-title{
+    color:#EA3C53 ;
+    font-size: 25px;
+    line-height: 25px;
+    border-bottom: 0.1px solid whitesmoke;
+    padding-bottom: 15px;
+}
+
+span{
+    color: white;
+}
 
 
 .header-container{
@@ -33,91 +74,78 @@ paleturquoise
     position: absolute;
     width: 100%;
     height: 661px;
-    border-bottom:3px solid #17bed2;
-    background: linear-gradient(90deg, #00000088 50%, #ffffff44 100%);
+    background: linear-gradient(90deg, #00000088 60%, #ffffff44 100%);
   
 }
 
-.title{
-    width: auto;
-    font-size: 36px;
-    text-transform: uppercase;
-    position: absolute;
-    top:40%;
-    left:21%;
-}
-
-.title-name{
-    color: #17bed2;
-}
-
-.sub-title{
-    color:#EA3C53 ;
-}
-
-span{
-    color: white;
-}
-
-/* .header-intro{
-    position: relative;
-    top: 68%;
-    left:-20%;
-} */
 
 
-/* Navbar */
+
+
+
+/******** Navbar******* */
 
 .navbar-container{
     position: absolute;
-    border-bottom: 1px solid rgb(23, 190, 210);
     width: 100%;
 }
 
-
-
 .navbar{
     background-color: transparent;
-    
+    border-bottom: 0.1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+.nav-item{
+    padding-right: 1rem;
+    font-family: "Hind",;
+    font-size: 14px;
+    font-weight: 500px;
+    text-transform: uppercase;
 }
 
 .nav-link{
-    color:#17bed2;
+    color: white;
 }
+
 .nav-link:hover{
     color: paleturquoise;
 }
+
 .nav-link:active:visited {
     color: paleturquoise;
 }
 
-
-
 .custom-toggler{
-    border: 2px solid #17bed2;
-    color: #17bed2;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
 }
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url(
-    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(23, 190, 210)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler:hover{
-    border: 3px solid #17bed2;
+    border: 3px solid white;
 }
 
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
   }
 
+  .navbar.scrolled{
+    background: #17bed2;
+    transition: 0.7s;
+}
+
 
 /* section about me */
 
 .about-descrip{
     padding-right: 100px;
-    padding-top: 20px;
-    padding-left: 0%;
+    padding-top: 30px;
+    padding-left: 20px;
 }
 
 .about-image{
@@ -128,20 +156,12 @@ span{
     border: 3px solid #17bed2;
 }
 
+.beta2{
+    padding-left: 88px;
+}
 
 
-
-
-
-
-/* .navbar.scrolled {
-    background:black;
-    transition: background 800ms;
-} */
-
-
-
-/* Experience Section */
+/* ******Experience Section******* */
 
 .card{
     border-style: solid;
@@ -193,42 +213,35 @@ span{
     margin-right: 0;
 }
 
+h5{
+    color: #333;
+}
 
+#card-middle{
+    color: white;
+}
+
+.card-icon{
+    padding: 10px;
+    width:50px;
+}
+
+.card-body{
+    padding: 30px;
+}
+
+.card-text{
+    margin: 15 0;
+}
+
+.card-title{
+    margin-top: 10px;
+}
 /* *******Skills Section********* */
 
 .skills-icon{
     width: 200px;
     height: auto;
-}
-
-/* General */
-
-/* section{
-    margin: 100px;
-   
-} */
-
-/* .about-me{
-    margin-top: 100px;
-}
-
-.experience{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.skills{
-    margin-top: 100px;
-    margin-bottom: 100px;
-} */
-
-
-.ool{
-    max-width: 1000px;
-    width: 600px;
-    max-height: 1px;
-    height: auto;
-    border-bottom: 1px solid #EA3C53;
 }
 
 .send-message{
@@ -237,11 +250,8 @@ span{
     padding-top: 50px;
     padding-bottom:50px;
 }
-/* 
-.form-container{
-    padding-right: 50px;
-    padding-left: 50px;
-} */
+
+/* ****** Message Section****** */
 
 .con-sub{
     background-color: #17bed2;
@@ -253,3 +263,8 @@ span{
     padding: 5rem;
 }
 
+@media screen and (max-width: 768px) { 
+    .navbar {
+      position: relative !important;
+    }
+  }
