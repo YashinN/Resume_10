@@ -142,6 +142,15 @@ span{
 
 /* ******section about me******* */
 
+.about-me{
+    position: relative;
+}
+
+.anchor{
+    position: absolute;
+    top: -80px;
+}
+
 .about-descrip{
     padding-right: 100px;
     padding-top: 30px;
@@ -205,12 +214,18 @@ span{
 }
 
 .experience{
+    position: relative;
     background-color: #fafafa;
     padding-top:50px;
     margin: 50px 50px;
     padding-bottom:50px;
     margin-left: 0;
     margin-right: 0;
+}
+
+.anchor-experience{
+    position: absolute;
+    top: -40px;
 }
 
 h5{
@@ -224,6 +239,7 @@ h5{
 .card-icon{
     padding: 10px;
     width:50px;
+    background-color: transparent;
 }
 
 .card-body{
@@ -242,6 +258,17 @@ h5{
 .skills-icon{
     width: 250px;
     height: auto;
+    background-color: transparent;
+}
+
+.skills{
+    position: relative;
+
+}
+
+.anchor-skills{
+    position: absolute;
+    top: -70px;
 }
 
 /* ****** Message Section****** */
